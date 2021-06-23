@@ -8,3 +8,12 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+:root{
+    --fuentePpal:'Baloo Tammudu 2', cursive;
+    --claro:#e8e8e4;
+    --oscuro:#1d3557;
+    --softPink:#ffe8d6;
+    --orange:#f3722c;
+    --celeste:#bde0fe;
+}

@@ -115,3 +115,67 @@ nav ul a{
         flex: 1;
     }
 }
+
+/*MENU DESPLEGABLE*/
+
+.desplegable ul{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:768px){
+    .desplegable ul{
+        flex-direction: row;
+    }
+}
+
+.desplegable ul li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.desplegable ul li ul{
+    margin-top: 1re;
+}
+
+
+@media(min-width:768px){
+    .desplegable ul li{
+        position: relative;
+        display: flex;
+        flex: 1 1 100%;
+    }
+    .desplegable ul li ul{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    .desplegable ul li:hover ul{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: var(--orange);
+        margin: 0;
+    }
+} 
+
+
+/*DESPLEGABLE MAS SOCIALES*/
+
+.navegacion-desplegable-social{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--oscuro);
+}
+
+
+/*SOCIALES*/
+.sociales ul li span{
+    display: none;
+}
+
+.sociales ul{
+    display: flex;
+    justify-content: flex-end;
+}
+

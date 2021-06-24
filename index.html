@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-ar">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUIS 2021 DIFERENTES EJEMPLO DE MENÚS</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="contenedor">
@@ -22,129 +24,135 @@
                 <li><a href="#">Tienda</a></li>
                 <li><a href="#">Asistencia</a></li>
             </ul>
-        </nav><!--FIN MENU-->
+        </nav>
+        <!--FIN MENU-->
 
         <h2>Con Iconos</h2>
         <nav class="iconos">
             <ul>
                 <li><a href="#">
-                    <div class="icono">
-                        <i class="fas fa-home fa-4x"></i>
-                    </div>
-                    <div class="text">
-                        <span>Inicio</span>
-                    </div>
+                        <div class="icono">
+                            <i class="fas fa-home fa-3x"></i>
+                        </div>
+                        <div class="text">
+                            <span>Inicio</span>
+                        </div>
                     </a>
                 </li>
 
                 <li><a href="#">
-                    <div class="icono">
-                        <i class="fab fa-shopify fa-4x"></i>
-                    </div>
-                    <div class="text">
-                        <span>Tienda</span>
-                    </div>
+                        <div class="icono">
+                            <i class="fab fa-shopify fa-3x"></i>
+                        </div>
+                        <div class="text">
+                            <span>Tienda</span>
+                        </div>
                     </a>
                 </li>
 
                 <li><a href="#">
-                    <div class="icono">
-                        <i class="fas fa-users fa-4x"></i>
-                    </div>
-                    <div class="text">
-                        <span>Nosotros</span>
-                    </div>
+                        <div class="icono">
+                            <i class="fas fa-users fa-3x"></i>
+                        </div>
+                        <div class="text">
+                            <span>Nosotros</span>
+                        </div>
                     </a>
                 </li>
 
                 <li><a href="#">
-                    <div class="icono">
-                        <i class="fas fa-mail-bulk fa-4x"></i>
-                    </div>
-                    <div class="text">
-                        <span>Contacto</span>
-                    </div>
+                        <div class="icono">
+                            <i class="fas fa-mail-bulk fa-3x"></i>
+                        </div>
+                        <div class="text">
+                            <span>Contacto</span>
+                        </div>
                     </a>
                 </li>
-
             </ul>
-        </nav> <!--FIN MENU-->
+        </nav>
+        <!--FIN MENU-->
 
         <h2>Menu Desplegable</h2>
         <nav class="desplegable">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a>
+                <li>
+                    <a href="#">Nosotros</a>
                     <ul>
                         <li><a href="#">Mision</a></li>
                         <li><a href="#">Vision</a></li>
                         <li><a href="#">Valores</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Tienda</a>
+                <li>
+                    <a href="#">Tienda</a>
                     <ul>
                         <li><a href="#">Prod.01</a></li>
                         <li><a href="#">Prod.02</a></li>
                         <li><a href="#">Prod.03</a></li>
-                        <li><a href="·">Prod.04</a></li>
                     </ul>
                 </li>
                 <li><a href="·">Asistencia</a></li>
             </ul>
-        </nav><!--FIN MENU-->
-
-
-        <h2>Redes Sociales</h2>
-        <nav class="iconos">
-            <ul>
-                <li><a href="#"><span>Facebook</span></a></li>
-                <li><a href="#"><span>YouTube</span></a></li>
-                <li><a href="#"><span>Twitter</span></a></li>
-                <li><a href="#"><span>Instagram</span></a></li>
-                <li><a href="#"><span>Pinteres</span></a></li>
-                <li><a href="#"><span>Reddit</span></a></li>
-                <li><a href="#"><span>Xbox</span></a></li>
-
-            </ul>
-        </nav> <!--FIN MENU-->
+        </nav>
+        <!--FIN MENU-->
 
         <h2>Menu Desplegable con Redes Sociales</h2>
-        <nav class="iconos">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Asistencia</a>
-                    <ul>
-                        <li><a href="#">Mision</a></li>
-                        <li><a href="#">Vision</a></li>
-                        <li><a href="#">Valores</a></li>
-                    </ul>
-                </li>
+        <div class="navegacion-desplegable-social">
+            <nav class="desplegable">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Asistencia</a>
+                        <ul>
+                            <li><a href="#">Mision</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Valores</a></li>
+                        </ul>
+                    </li>
 
-                <li><a href="#">Tienda</a>
-                    <ul>
-                        <li><a href="#">Prod.A</a></li>
-                        <li><a href="#">Prod.B</a></li>
-                        <li><a href="#">Prod.C</a></li>
-                        <li><a href="#">Prod.D</a></li>
-                        <li><a href="#">Prod.E</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Asistencia</a></li>
-            </ul>
-
+                    <li><a href="#">Tienda</a>
+                        <ul>
+                            <li><a href="#">Prod.A</a></li>
+                            <li><a href="#">Prod.B</a></li>
+                            <li><a href="#">Prod.C</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Asistencia</a></li>
+                </ul>
+            </nav>
+            <nav class="sociales">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook fa-2x"></i><span>Facebook</span></a></li>
+                    <li><a href="#"><i class="fab fa-youtube fa-2x"></i><span>Youtube</span></a></li>
+                    <li><a href="#"><i class="fab fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+                    <li><a href="#"><i class="fab fa-instagram fa-2x"></i><span>Instagram</span></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest fa-2x"></i><span>Pinteres</span></a></li>
+                    <li><a href="#"><i class="fab fa-reddit fa-2x"></i><span>Reddit</span></a></li>
+                    <li><a href="#"><i class="fab fa-xbox fa-2x"></i><span>Xbox</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--FIN MENU-->
+        
+        <h2>Redes Sociales</h2>
+        <nav class="sociales">
             <ul>
-                <li><a href="#"><span>Facebook</span></a></li>
-                <li><a href="#"><span>Youtube</span></a></li>
-                <li><a href="#"><span>Twitter</span></a></li>
-                <li><a href="#"><span>Instagram</span></a></li>
-                <li><a href="#"><span>Pinteres</span></a></li>
-                <li><a href="#"><span>Reddit</span></a></li>
-                <li><a href="#"><span>Xbox</span></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square fa-3x"></i><span>Facebook</span></a></li>
+                <li><a href="#"><i class="fab fa-youtube-square fa-3x"></i><span>YouTube</span></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square fa-3x"></i><span>Twitter</span></a></li>
+                <li><a href="#"><i class="fab fa-instagram-square fa-3x"></i><span>Instagram</span></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-square fa-3x"></i><span>Pinteres</span></a></li>
+                <li><a href="#"><i class="fab fa-reddit-square fa-3x"></i><span>Reddit</span></a></li>
+                <li><a href="#"><i class="fab fa-xbox fa-3x"></i><span>Xbox</span></a></li>
+
             </ul>
-        </nav><!--FIN MENU-->
+        </nav>
+        <!--FIN MENU-->
     </div>
 
     <script src="https://kit.fontawesome.com/4b372a6cbd.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>
